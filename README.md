@@ -47,9 +47,9 @@
 ##  9.  Add kubernetes repository 
 
 ~~~
-    cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
-    deb http://apt.kubernetes.io/ kubernetes-xenial main
-    EOF
+cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
+deb http://apt.kubernetes.io/ kubernetes-xenial main
+EOF
 ~~~
 
 ##  10. Install docker, kubeadm, kubelet, kubectl 
