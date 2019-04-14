@@ -11,6 +11,8 @@
 
 `   apt-get update`
 
+`   swapoff -a ` 
+
 ##  2.  Comment swap FS from /etc/fstab 
 
 `   vi /etc/fstab`
