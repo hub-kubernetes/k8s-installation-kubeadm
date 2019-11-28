@@ -3,7 +3,7 @@
 ##  Pre-requisite 
 
 *     Master node - 2 cpu x 2 GB memory
-*     Worker node - 1 cpu x 1 GB memory
+*     Worker node - 1 cpu x 2 GB memory
 
 ## Pre-installation steps
 
