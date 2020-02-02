@@ -167,13 +167,6 @@ kubeadm join 10.138.0.2:6443 --token 3ccgnq.2owa1scoiqqoqhdq \
 
 Preserve the above output as it contains the token required for node configuration. 
 
-* Install Networking component (CNI)
-
-```
-kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml
-
-```
-
 * Copy over the configuration files
 
 ```
@@ -182,6 +175,16 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 ```
+
+
+* Install Networking component (CNI)
+
+```
+kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml
+
+```
+
+
 
 * Join the worker node 
 
